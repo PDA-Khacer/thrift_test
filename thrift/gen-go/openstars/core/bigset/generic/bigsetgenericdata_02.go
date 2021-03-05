@@ -10369,7 +10369,7 @@ func (p *TStringBigSetKVServiceClient) BsRangeQuery(ctx context.Context, bsName 
 	return _result130.GetSuccess(), nil
 }
 
-// Parameters:
+// Parameters:g
 //  - BsName
 //  - SetData
 func (p *TStringBigSetKVServiceClient) BsBulkLoad(ctx context.Context, bsName TStringKey, setData *TItemSet) (r bool, err error) {
